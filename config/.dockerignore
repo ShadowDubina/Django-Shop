@@ -1,0 +1,4 @@
+.git/
+media/
+__pycache__/
+.env
