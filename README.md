@@ -59,8 +59,14 @@ Django is an opinionated framework and I've added a few extra opinions based on 
 You'll need to have [Docker installed](https://docs.docker.com/get-docker/).
 It's available on Windows, macOS and most distros of Linux.
 
+Install 7Zip pac or use command of git install on your PC:
 ```sh
-https://github.com/ShadowDubina/Shop-Django.git
+git clone https://github.com/ShadowDubina/Django-Shop.git
+```
+Next:
+
+```sh
+cd Django-Shop
 cd config
 
 ```
@@ -75,7 +81,7 @@ docker compose up --build
 
 #### Check it out in a browser:
 
-Visit <http://localhost:8000/shop> in your favorite browser.
+Visit <http://localhost:1337/shop> in your favorite browser.
 
 
 #### If you want create admin and add data:
@@ -83,6 +89,7 @@ You need open 2 cmd
 
 Then:
 ```sh
+cd Django-Shop
 cd config
 ```
 You need open docker, open container, see container id, copy, and paste it in place to this command:
